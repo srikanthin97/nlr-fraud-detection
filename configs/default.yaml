@@ -1,0 +1,15 @@
+paths:
+  raw_dir: data/raw
+  processed_dir: data/processed
+  artifacts_dir: models/artifacts
+
+data:
+  random_seed: 42
+  n_samples: 50000
+  fraud_rate: 0.02
+
+model:
+  baseline: logistic_regression
+  advanced: hist_gradient_boosting
+  test_size: 0.2
+  val_size: 0.1
